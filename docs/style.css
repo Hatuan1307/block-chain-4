@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 204, 102);
+}
+
+.container {
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
+
+.wallet {
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px 6px rgb(255, 178, 22);
+  -moz-box-shadow: 0px 8px 20px 6px rgb(255, 178, 22);
+  -webkit-box-shadow: 0px 8px 20px 6px rgb(255, 178, 22);
+  height: 680px;
+  max-width: 900px;
+  min-width: 800px;
+  display: flex;
+}
+
+.left-wallet {
+  background-color: #f2f2f2;
+  width: 300px;
+  height: inherit;
+  padding: 40px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.right-trans {
+  background-color: #fff;
+  width: 600px;
+  height: inherit;
+  padding: 40px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+h1 {
+  color: #7d818e;
+  margin: 0;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+h4 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* .left-wallet h1,
+.left-wallet .modal-open,
+.right-trans h1,
+.right-trans #balance {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+} */
+
+.wallet-head,
+.trans-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#balance {
+  color: #464646;
+  line-height: 34px;
+}
+
+.modal-open {
+  padding: 0;
+  font-size: 42px;
+  line-height: 36px;
+  color: #b7b7b7;
+  cursor: pointer;
+}
+
+.modal-open:hover {
+  color: #868686;
+}
+
+.trans-list {
+  /* display: none; */
+  border-top: 1px solid #f2f2f2;
+  margin-top: 40px;
+  overflow-y: scroll;
+  max-height: 550px;
+}
+
+.cc-select {
+  margin-top: 34px;
+  overflow-y: scroll;
+  max-height: 540px;
+  padding: 5px;
+}
+
+.trans {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sent {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/384009/plus-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.received {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/384009/minus-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.trans-details {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.trans-details-main {
+  padding-left: 10px;
+}
+.trans-num,
+.trans-code-date {
+  margin: 3px;
+}
+
+.trans-code-date {
+  color: #888;
+}
+
+.trans-amt {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+span.usdt {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("/docs/images/usdt.png");
+}
+
+span.btc {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("/docs/images/btc.png");
+}
+
+span.eth {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("/docs/images/eth.png");
+}
+
+span.sol {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("/docs/images/sol.png");
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet</title>
+    <link rel="stylesheet" href="/docs/style.css" />
+  </head>
+  <body>
+    <!-- Create Read Update Delete -->
+
+    <div class="container">
+      <div class="wallet">
+        <aside class="left-wallet">
+          <div class="wallet-head">
+            <h1>My Wallet</h1>
+            <div class="modal-open">+</div>
+          </div>
+          <div class="cc-select">
+            <user-wallet
+              type="usdt"
+              address="265134354123126412"
+              isActive="true"
+              date="1635517281"
+            >
+            </user-wallet>
+
+            <user-wallet
+              type="btc"
+              address="265134354123126412"
+              isActive="true"
+              date="1635517281"
+            >
+            </user-wallet>
+
+            <user-wallet
+              type="eth"
+              address="265134354123126412"
+              isActive="true"
+              date="1635517281"
+            >
+            </user-wallet>
+
+            <user-wallet
+              type="sol"
+              address="265134354123126412"
+              isActive="true"
+              date="1635517281"
+            >
+            </user-wallet>
+          </div>
+        </aside>
+        <content class="right-trans">
+          <div class="trans-head">
+            <h1>Curent Balance</h1>
+            <h4 id="balance">$(1.025.999)</h4>
+          </div>
+          <div class="trans-list">
+            <div class="trans">
+              <div class="trans-details">
+                <span class="sent"></span>
+                <div class="trans-details-main">
+                  <h3 class="trans-num">421481587912134
+                  </h3>
+                  <h5 class="trans-code-date">#7848425 - 01/09/2022</h5>
+                </div>
+              </div>
+              <div class="trans-amt">
+                <span class="usdt"></span>
+                <span class="amount">1050</span>
+              </div>
+            </div>
+            <div class="trans">
+              <div class="trans-details">
+                <span class="received"></span>
+                <div class="trans-details-main">
+                  <h3 class="trans-num">263273723725775</h3>
+                  <h5 class="trans-code-date">#4957575 - 14/10/2021</h5>
+                </div>
+              </div>
+              <div class="trans-amt">
+                <span class="btc"></span>
+                <span class="amount">3000</span>
+              </div>
+            </div>
+            <div class="trans">
+              <div class="trans-details">
+                <span class="received"></span>
+                <div class="trans-details-main">
+                  <h3 class="trans-num">484154145645612</h3>
+                  <h5 class="trans-code-date">#875124 - 07/08/2021</h5>
+                </div>
+              </div>
+              <div class="trans-amt">
+                <span class="sol"></span>
+                <span class="amount">2145</span>
+              </div>
+            </div>
+            <div class="trans">
+              <div class="trans-details">
+                <span class="received"></span>
+                <div class="trans-details-main">
+                  <h3 class="trans-num">263273723725775</h3>
+                  <h5 class="trans-code-date">#544587 - 04/06/2021</h5>
+                </div>
+              </div>
+              <div class="trans-amt">
+                <span class="eth"></span>
+                <span class="amount">8745</span>
+              </div>
+            </div>
+          </div>
+        </content>
+      </div>
+    </div>
+
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>
